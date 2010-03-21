@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>img="$TM_DROPPED_FILE"
+echo -n "%img{:src =&gt; \"$img\", "
+
+sips -g pixelWidth -g pixelHeight "$img" \
+|awk '/pixelWidth/  { printf(":width =&gt; %d, ",  $2) }
+      /pixelHeight/ { printf(":height =&gt; %d, ", $2) }'
+
+base=${img##*/}
+alt=$(tr &lt;&lt;&lt;${base%.*} '[_-]' ' '|perl -pe 's/(\w+)/\u$1/g')
+echo -n ":alt =&gt; \"$alt\"${TM_XHTML}}/"
+</string>
+	<key>draggedFileExtensions</key>
+	<array>
+		<string>png</string>
+		<string>jpeg</string>
+		<string>jpg</string>
+		<string>gif</string>
+	</array>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>Scaml Insert Image</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.scaml</string>
+	<key>uuid</key>
+	<string>5B2705B3-4064-4124-A481-6B9D2C50D829</string>
+</dict>
+</plist>

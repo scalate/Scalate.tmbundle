@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:AttributeName}="$2"${3:, }$0</string>
+	<key>name</key>
+	<string>Scaml Tag Attribute</string>
+	<key>scope</key>
+	<string>source.scaml</string>
+	<key>tabTrigger</key>
+	<string>:</string>
+	<key>uuid</key>
+	<string>33CB0E07-3305-4D3B-A28F-946AB4EEABB7</string>
+</dict>
+</plist>

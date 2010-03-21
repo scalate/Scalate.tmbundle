@@ -4,6 +4,25 @@
 <dict>
 	<key>name</key>
 	<string>Scalate</string>
+	<key>ordering</key>
+	<array>
+		<string>1869C69F-D37C-4F69-86F3-9D7213CB57C7</string>
+		<string>ACCBCED2-E173-4559-8708-ECFE5FEA6625</string>
+		<string>262D3E5F-290C-4CEA-B23F-9C94E8340BA4</string>
+		<string>1C9E13C1-CDF3-4E1F-8744-0498FAE109C8</string>
+		<string>5B2705B3-4064-4124-A481-6B9D2C50D829</string>
+		<string>E0E0F3C1-8764-4C82-8C26-058E106E8801</string>
+		<string>A3532E97-EBE1-46D8-93A3-566CCD076950</string>
+		<string>8391FC08-4E0A-4080-BF4A-755D7C45F898</string>
+		<string>EBA3420E-63F9-44EE-92FA-C36777C4A124</string>
+		<string>3544E43D-4BD7-4E31-927D-CAC4FC220FF4</string>
+		<string>12537793-9F32-49EB-AA6E-D451ACB9B144</string>
+		<string>42990347-2798-4F53-9620-0FE0772F0379</string>
+		<string>16EA8ADB-DB68-4782-A3C2-2EE17F4FC38F</string>
+		<string>33CB0E07-3305-4D3B-A28F-946AB4EEABB7</string>
+		<string>84912096-DCBF-4C5B-A7BE-9BD01FEE8EFC</string>
+		<string>E567B961-A06F-4896-911E-7A996F2B6936</string>
+	</array>
 	<key>uuid</key>
 	<string>B145B25C-BD41-4E81-9B0D-78893D1C8746</string>
 </dict>

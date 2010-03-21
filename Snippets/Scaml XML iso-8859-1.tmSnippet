@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>!!! XML iso-8859-1</string>
+	<key>name</key>
+	<string>Scaml XML iso-8859-1</string>
+	<key>scope</key>
+	<string>source.scaml</string>
+	<key>tabTrigger</key>
+	<string>doctype</string>
+	<key>uuid</key>
+	<string>16EA8ADB-DB68-4782-A3C2-2EE17F4FC38F</string>
+</dict>
+</plist>

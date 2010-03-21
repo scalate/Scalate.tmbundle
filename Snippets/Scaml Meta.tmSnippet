@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>%meta{ :name =&gt; '$1', :content =&gt; '$2'${3:, }$4 }$0</string>
+	<key>keyEquivalent</key>
+	<string>^&lt;</string>
+	<key>name</key>
+	<string>Scaml Meta</string>
+	<key>scope</key>
+	<string>source.scaml</string>
+	<key>tabTrigger</key>
+	<string>meta</string>
+	<key>uuid</key>
+	<string>E567B961-A06F-4896-911E-7A996F2B6936</string>
+</dict>
+</plist>

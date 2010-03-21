@@ -19,7 +19,7 @@
 		|(^|\s)\}
 		)</string>
 	<key>name</key>
-	<string>Scalate Ssp</string>
+	<string>Ssp</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -52,7 +52,7 @@
 			<key>end</key>
 			<string>-?%&gt;</string>
 			<key>name</key>
-			<string>source.ruby.rails.embedded.html</string>
+			<string>source.scala.embedded.html</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -81,7 +81,7 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>text.html.scala</string>
+	<string>text.html.ssp</string>
 	<key>uuid</key>
 	<string>1869C69F-D37C-4F69-86F3-9D7213CB57C7</string>
 </dict>
