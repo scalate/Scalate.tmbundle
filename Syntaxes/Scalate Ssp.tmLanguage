@@ -19,7 +19,7 @@
 		|(^|\s)\}
 		)</string>
 	<key>name</key>
-	<string>Ssp</string>
+	<string>Ssp (Scalate)</string>
 	<key>patterns</key>
 	<array>
 		<dict>
