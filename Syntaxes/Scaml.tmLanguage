@@ -146,7 +146,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>^\s*(?:((%)([\w:]+))|(?=\.\w|#\w))</string>
+			<string>^\s*(?:((%)(('[^']+')|([\w\_\-:]+)))|(?=\.\w|#\w))</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
